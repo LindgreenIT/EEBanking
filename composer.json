@@ -31,6 +31,5 @@
         "psr-4": {
                 "Linddgreenit\\eebanking$\\": "src"
         },
-        "Psr-0": {"": "src/"}
     }   
 }
