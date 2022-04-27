@@ -11,7 +11,12 @@
     ],
     "require": {
         "php": ">=8.0.0",
-        "doctrine/dbal": "^3.3.5"
+        "doctrine/dbal": "^3.3.5",
+        "doctrine/orm": "^2.5.5",
+        "doctrine/annotations": "^1.8.0",
+        "symfony/yaml": "^3.4.0",
+        "symfony/cache": "^3.4.0"
+
     },
 
     "suggest": {
@@ -23,8 +28,9 @@
     },
 
     "autoload": {
-            "psr-4": {
+        "psr-4": {
                 "Linddgreenit\\eebanking$\\": "src"
-        }
+        },
+        "Psr-0": {"": "src/"}
     }   
 }
