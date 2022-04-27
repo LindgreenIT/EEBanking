@@ -16,7 +16,6 @@
         "doctrine/annotations": "^1.8.0",
         "symfony/yaml": "^3.4.0",
         "symfony/cache": "^3.4.0"
-
     },
 
     "suggest": {
@@ -28,8 +27,8 @@
     },
 
     "autoload": {
-        "psr-4": {
+            "psr-4": {
                 "Linddgreenit\\eebanking$\\": "src"
-        },
+        }
     }   
 }
